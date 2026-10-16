@@ -1,6 +1,6 @@
 # Tmux Configuration (.config-tmux)
 
-A modern, high-performance, and visually polished Tmux configuration styled with the **Catppuccin Macchiato** color palette to seamlessly match Neovim and terminal workflows.
+A modern, high-performance, and visually polished Tmux configuration styled with the official **Catppuccin Macchiato** plugin to seamlessly match Neovim and terminal workflows.
 
 ---
 
@@ -16,10 +16,10 @@ A modern, high-performance, and visually polished Tmux configuration styled with
 ---
 
 ## 🎨 Theme & Appearance
-- **Palette:** Catppuccin Macchiato (`#24273a` background, `#8aadf4` blue accents, `#363a4f` surface highlights).
-- **Status Bar:** Positioned at the **top**, featuring session badge (`󰙯`), date (`󰃰`), and live clock (`󱑂`).
-- **Window Tabs:** Rounded powerline style with active/inactive indicators and 1-based indexing.
-- **Panes:** Highlighted active pane border (`#8aadf4`) and subtle inactive borders (`#363a4f`).
+- **Palette:** Official [Catppuccin Tmux Plugin](https://github.com/catppuccin/tmux) (`macchiato` flavor).
+- **Status Bar:** Positioned at the **top**, featuring status modules: `application`, `session`, `uptime`, and `date_time`.
+- **Window Tabs:** Rounded powerline style (`` / ``) with active/inactive indicators and 1-based indexing.
+- **Panes:** Highlighted active pane border with custom color styling.
 
 ---
 
@@ -70,3 +70,4 @@ Managed via [Tmux Plugin Manager (TPM)](https://github.com/tmux-plugins/tpm):
 - `tmux-plugins/tpm` — Plugin manager
 - `tmux-plugins/tmux-sensible` — Basic sensible defaults
 - `tmux-plugins/tmux-yank` — OS clipboard integration
+- `catppuccin/tmux` — Official Catppuccin theme (`macchiato`)
